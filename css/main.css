@@ -1,3 +1,18 @@
 body {
   font-family: Palatino;
 }
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-star;
+  align-content: center;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: LightCyan;
+  padding: 20px;
+  margin: 20px;
+}
